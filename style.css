@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(29, 31, 31);
+}
+h1{
+    font-family: "Monoton", sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px rgb(173, 98, 165), 0 0 25px rgb(177, 72, 170), 0 0 5px rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(211, 91, 203, 0.687), 0 6px 20px 0 rgba(223, 63, 194, 0.724);
+    color: white;
+}
+#guessnumber{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(247, 248, 248, 0.877);
+    outline: none;
+    width: 300px;
+    color: rgb(25, 27, 27);
+}
+.box button{
+    background-color: rgba(71, 38, 22, 0.121);
+    padding: 5px;
+    color: azure;
+    border-radius: 10px;
+}
+.box button:hover{
+    background-color: rgba(163, 61, 146, 0.753);
+    color: rgba(244, 238, 238, 0.847);
+}
+.box button:active{
+    color: rgb(0, 0, 0);
+    background-color: rgba(237, 117, 219, 0.888);
+}
+.confetti{
+    width: max-content;
+    display: none;
+    margin: 0 auto;
+    user-select: none;
+ }
